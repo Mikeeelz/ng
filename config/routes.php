@@ -1,7 +1,6 @@
 <?php
 
 return [
-    '/product/([0-9]+)' => 'product page',
-    '/cart' => '\App\Controller\CartController:Cart',
+    '/migrate' => '\App\Controller\MigrateController:index',
     '/' => '\App\Controller\IndexController:index',
 ];

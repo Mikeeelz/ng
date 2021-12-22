@@ -9,12 +9,8 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-12 mt-5">
-            <form class="align-center" style="display: flex; justify-content: center;" method="get">
-                <input type="hidden" name="submit" value="1">
-                <input type="hidden" name="hash" value="<?= $_GET['hash'] ?>">
-                <button class="btn btn-primary">Выбрать</button>
-            </form>
+        <div class="col-12 mt-5" style="display: flex; justify-content: center;">
+            <h1><?= $partnerName ?></h1>
         </div>
     </div>
 </div>
